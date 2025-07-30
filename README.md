@@ -18,4 +18,4 @@ When I added a div for hidden content that shows when the user mouses over, the 
 ## Screenshot
 Include a screenshot of your component.
 
-![Screenshot of rendered component](CS81A9BGregH.png)
+![Screenshot of rendered component](CS81A9BScreenGregH.png)
