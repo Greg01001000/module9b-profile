@@ -1,4 +1,4 @@
-
+// https://github.com/Greg01001000/module9b-profile
 
 import { useState } from 'react';
 
@@ -11,18 +11,10 @@ function UserProfile({name, pic, quote, bonus}) {
             <img src={pic} alt={`${name}'s profile`} style={{ width: '150px', height: '150px', borderRadius: '50%', objectFit: 'cover', border: '3px solid #419494ff', marginBottom: '15px' }} />
             <h1 style={{ fontSize: '22px', color: '#0714a8ff' }}>{name}</h1>
             <p style={{ fontSize: '15px', color: '#3b3b3dff' }}>{quote}</p>
-    
-              <div style={{
-        maxHeight: isHovered ? '200px' : '0',
-        overflow: 'hidden',
-        transition: 'max-height 0.3s ease, opacity 0.3s ease',
-        opacity: isHovered ? 1 : 0,
-      }}>
-        <hr />
-        <p style={{ fontSize: '14px', color: '#3b3b3dff' }}>
-          {bonus}
-        </p>
-        </div>
+            <div style={{ maxHeight: isHovered ? '200px' : '0', overflow: 'hidden', transition: 'max-height 0.3s ease, opacity 0.3s ease', opacity: isHovered ? 1 : 0 }}>
+                <hr />
+                <p style={{ fontSize: '14px', color: '#3b3b3dff' }}> {bonus} </p>
+            </div>
         </div>
     );
 }

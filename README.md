@@ -1,12 +1,21 @@
-# React + Vite
+https://github.com/Greg01001000/module9b-profile
+### CS 81, by Greg H, 7/30/25
+# Module 9B - Custom Profile Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This is a React app built with Vite. It contains a profile component styled with inline CSS, using passed props and UseState() for a hover effect.
 
-Currently, two official plugins are available:
+## What I Learned
+- How to use JSX to pass props
+- How to style with inline CSS with a hover effect
+- How to create and render functional components
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Challenges
+Briefly describe any issues you encountered and how you resolved them.
 
-## Expanding the ESLint configuration
+When I added a div for hidden content that shows when the user mouses over, the component stopped showing in the web page until I saw that I forgot to add a closing div tag. Adding that fixed it. Also, at one point the page said the server wasn't responding. I don't know why the vite server shut down, but restarting it solved the problem.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Screenshot
+Include a screenshot of your component.
+
+![Screenshot of rendered component](CS81A9BGregH.png)
